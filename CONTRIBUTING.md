@@ -2,13 +2,11 @@
 
 Thank you for considering contributing to KeyframeCSS. This document describes the rules and workflow for contributing to this project.
 
----
 
 ## Project Overview
 
 KeyframeCSS is a lightweight CSS animation library that allows applying animations via utility-like classes (e.g. `anim kf-bounce`).
 
----
 
 ## Contribution Workflow
 
@@ -21,7 +19,6 @@ This project uses the **Fork & Pull Request** workflow:
 
 All contributions must go through a Pull Request.
 
----
 
 ## Pull Request Requirements
 
@@ -30,7 +27,6 @@ All contributions must go through a Pull Request.
 - Provide a clear description of what was changed
 - Reference related issues if applicable
 
----
 
 ## Code Style
 
@@ -43,7 +39,6 @@ However, all contributions must follow these rules:
 - Avoid unnecessary complexity
 - Maintain consistent indentation
 
----
 
 ## Commit Messages
 
@@ -55,10 +50,13 @@ feat: add bounce animation
 fix: correct keyframe timing
 docs: update usage examples
 ```
+or
+```
+Added horizontal line movement to kf-bounce animation
+```
 
 This is not strictly enforced but strongly recommended.
 
----
 
 ## Pull Request Review
 
@@ -69,7 +67,6 @@ A PR will only be merged if:
 - It does not break existing animations
 - It keeps the library lightweight and consistent
 
----
 
 ## Issues
 
@@ -78,13 +75,10 @@ Before opening an issue:
 - Check if the issue already exists
 - Use the provided issue templates
 
----
 
 ## Code of Conduct
 
 Please follow the Code of Conduct to ensure a respectful and constructive environment for all contributors.
-
----
 
 ## License
 
