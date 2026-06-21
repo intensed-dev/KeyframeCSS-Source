@@ -8,10 +8,10 @@ Together with MotionJS, you can create your own animations without needing to cr
 We will use this as a CDN.
 JavaScript/HTML/CSS:
 ```html
-<link rel="stylesheet" src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/src/all.min.css" />
+<link rel="stylesheet" src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss-source@latest/src/all.min.css" />
 ```
 Or, use the latest Development Version
 > Warning: Developer Versions are deprecated. Please use all.min.css until June 21st.
 ```html
-<link rel="stylesheet" src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@v0.5.1/src/development.min.css" />
+<link rel="stylesheet" src="[https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@v0.5.1/src/development.min.css](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss-source@0.5.1/src/development.min.css)" />
 ```
