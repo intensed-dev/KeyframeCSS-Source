@@ -23,7 +23,7 @@
 .speed-07 { animation-duration: 0.7s; }
 .speed-08 { animation-duration: 0.8s; }
 .speed-09 { animation-duration: 0.9s; }
-.speed-10 { animation-duration: 1.0s; }
+.speed-10, .speed-1 { animation-duration: 1.0s; }
 
 .speed-11 { animation-duration: 1.1s; }
 .speed-12 { animation-duration: 1.2s; }
@@ -34,7 +34,7 @@
 .speed-17 { animation-duration: 1.7s; }
 .speed-18 { animation-duration: 1.8s; }
 .speed-19 { animation-duration: 1.9s; }
-.speed-20 { animation-duration: 2.0s; }
+.speed-20, .speed-2 { animation-duration: 2.0s; }
 
 .speed-21 { animation-duration: 2.1s; }
 .speed-22 { animation-duration: 2.2s; }
@@ -45,7 +45,7 @@
 .speed-27 { animation-duration: 2.7s; }
 .speed-28 { animation-duration: 2.8s; }
 .speed-29 { animation-duration: 2.9s; }
-.speed-30 { animation-duration: 3.0s; }
+.speed-30, .speed-3 { animation-duration: 3.0s; }
 
 .speed-31 { animation-duration: 3.1s; }
 .speed-32 { animation-duration: 3.2s; }
@@ -56,7 +56,7 @@
 .speed-37 { animation-duration: 3.7s; }
 .speed-38 { animation-duration: 3.8s; }
 .speed-39 { animation-duration: 3.9s; }
-.speed-40 { animation-duration: 4.0s; }
+.speed-40, .speed-4 { animation-duration: 4.0s; }
 
 .speed-41 { animation-duration: 4.1s; }
 .speed-42 { animation-duration: 4.2s; }
@@ -67,7 +67,7 @@
 .speed-47 { animation-duration: 4.7s; }
 .speed-48 { animation-duration: 4.8s; }
 .speed-49 { animation-duration: 4.9s; }
-.speed-50 { animation-duration: 5.0s; }
+.speed-50, .speed-5 { animation-duration: 5.0s; }
 /* ----------------- */
 /* ----- LOOPS ----- */
 /* ----------------- */
@@ -154,4 +154,74 @@
   75% { transform: rotate(-3deg); } 
   90% { transform: rotate(3deg); } 
   100% { transform: rotate(0deg); } 
+}
+
+.kf-pop-in { animation-name: KfPopIn; }
+@keyframes KfPopIn {
+  0% { transform: scale(0); }
+  80% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.kf-pop-out { animation-name: KfPopOut; }
+@keyframes KfPopOut {
+  0% { transform: scale(1); }
+  20% { transform: scale(1.05); }
+  100% { transform: scale(0); }
+}
+
+.kf-caret::after {
+  content: var(--kf-caret, "|");
+  color: var(--kf-caret-color, black);
+  animation: KfCaret 1s step-end infinite;
+}
+@keyframes KfCaret { 50% { opacity: 0; } }
+
+.kf-squish-w { animation-name: KfSquishW; }
+@keyframes KfSquishW {
+  0% { transform: scale(1, 1); }
+  35% { transform: scale(0.7, 1.3); }
+  65% { transform: scale(0.7, 1.3); }
+  100% { transform: scale(1, 1); }
+}
+
+.kf-squish-h { animation-name: KfSquishH; }
+@keyframes KfSquishH {
+  0% { transform: scale(1, 1); }
+  35% { transform: scale(1.3, 0.7); }
+  65% { transform: scale(1.3, 0.7); }
+  100% { transform: scale(1, 1); }
+}
+
+.kf-rubberband { animation-name: KfRubberband; }
+@keyframes KfRubberband {
+  0% { transform: scale(1, 1); }
+  25% { transform: scale(1.2, 0.8); }
+  45% { transform: scale(1.2, 0.8); }
+  60% { transform: scale(0.8, 1.2); }
+  100% { transform: scale(1, 1); }
+}
+
+.kf-hammer { animation-name: KfHammer; }
+@keyframes KfHammer {
+  0% { transform: rotate(0); }
+  80% { transform: rotate(40deg); }
+  90% { transform: rotate(0); }
+  100% { transform: rotate(0); }
+}
+
+.kf-hammer-reversed { animation-name: KfHammerReversed; }
+@keyframes KfHammerReversed {
+  0% { transform: rotate(0); }
+  80% { transform: rotate(-40deg); }
+  90% { transform: rotate(0); }
+  100% { transform: rotate(0); }
+}
+
+.kf-hammer-special { animation-name: KfHammerSpecial; }
+@keyframes KfHammerSpecial {
+  0% { transform: rotate(45deg); }
+  80% { transform: rotate(-5deg); }
+  90% { transform: rotate(45deg); }
+  100% { transform: rotate(45deg); }
 }
