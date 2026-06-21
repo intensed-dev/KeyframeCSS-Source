@@ -11,6 +11,7 @@ JavaScript/HTML/CSS:
 <link rel="stylesheet" src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/src/all.min.css" />
 ```
 Or, use the latest Development Version
+> Warning: Developer Versions are deprecated. Please use all.min.css until June 21st.
 ```html
-<link rel="stylesheet" src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/src/development.min.css" />
+<link rel="stylesheet" src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@v0.5.1/src/development.min.css" />
 ```
