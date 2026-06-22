@@ -1,0 +1,6 @@
+.anim {
+  animation-fill-mode: both;
+  animation-duration: 0.5s;
+  transform-origin: center;
+  display: inline-block;
+}
