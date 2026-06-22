@@ -1,0 +1,12 @@
+.kf-fade-in { 
+  animation-name: KfFadeIn; 
+}
+
+@keyframes KfFadeIn {
+  from { 
+    opacity: 0; 
+  }
+  to { 
+    opacity: 1; 
+  }
+}
