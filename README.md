@@ -1,6 +1,11 @@
 <div style="text-align: center;">
 
-# ![Logo](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/website/images/logo_white.svg) KeyframeCSS
+# ![Logo](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/logo.svg) KeyframeCSS
+
+![Built On](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/badges/built_on/cozy.svg)
+![Built With](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/badges/built_with/cozy.svg)
+![Supports](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/badges/supports/cozy.svg)
+![Badge Icon](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/badges/built_with/cozy-minimal.svg)
 
 KeyframeCSS is a lightweight, utility-first CSS animation library designed to simplify how animations are applied in modern web interfaces. Instead of writing custom keyframes or maintaining large CSS files, animations are activated through predictable class names such as `anim kf-bounce`. The goal is to make animations reusable, composable, and consistent across projects without introducing runtime overhead or JavaScript dependencies.
 
