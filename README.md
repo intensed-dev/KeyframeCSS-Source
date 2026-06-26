@@ -2,6 +2,7 @@
 
 # ![Logo](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/logo.svg) KeyframeCSS
 
+![Built For Lisce](https://cdn.jsdelivr.net/gh/intensed-dev/lisce@latest/branding/badges/built_for/cozy.svg)
 ![Built For](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/badges/built_for/cozy.svg)
 ![Built With](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/badges/built_with/cozy.svg)
 ![Requires](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/badges/requires/cozy.svg)
